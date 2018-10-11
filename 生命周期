@@ -13,3 +13,8 @@ updated（更新后）,
 beforeDestroy（销毁前）,
 
 destroyed（销毁后）
+
+
+
+--iview的page-size-opts的使用
+<Page :total="totalPage" show-sizer :page-size="15" :page-size-opts="[15,50,100]" @on-change="changePageNum"></Page>
